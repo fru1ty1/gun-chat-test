@@ -4,3 +4,4 @@
 firebase.json
 /selenium/venv
 .DS_Store
+geckodriver.log
