@@ -39,7 +39,7 @@
     };
 
     // Get Messages
-    db.get('test3')
+    db.get('test17')
       .map(match)
       .once(async (data, id) => {
         if (data) {
@@ -69,7 +69,7 @@
     const secret = await SEA.encrypt(newMessage, '#foo');
     const message = user.get('all').set({ what: secret });
     const index = new Date().toISOString();
-    db.get('test3').get(index).put(message);
+    db.get('test17').get(index).put(message);
     newMessage = '';
     canAutoScroll = true;
     autoScroll();

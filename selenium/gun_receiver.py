@@ -7,6 +7,7 @@ import time
 
 driver = webdriver.Chrome("./chromedriver")
 driver.implicitly_wait(100000)
+input("givew")
 
 driver.get("http://localhost:5000/")
 driver.find_element(By.XPATH, '/html/body/div/div/main/input[1]').send_keys("DopeAssRhymer")

@@ -1,4 +1,7 @@
 
+
+BRIEFING_URL = "https://brie.fi/ng/shoddy-bicycle-92"
+
 import difflib
 
 EXPECTED_MSGS_100 = [
@@ -31,6 +34,7 @@ EXPECTED_MSGS_100_REAL = [
 
 
 END_MSG = "END"
+
 
 
 

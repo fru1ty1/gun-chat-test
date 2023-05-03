@@ -8,8 +8,6 @@ import time
 
 #driver = webdriver.Chrome("./chromedriver")
 driver = webdriver.Firefox()
-
-actions = ActionChains(driver=driver)
 driver.implicitly_wait(10)
 
 input("press to continue")
